@@ -23,12 +23,11 @@
 		<addColumn tableName="company">
 			<column name="address2" type="varchar(50)"/>
 		</addColumn>
-		
 		<rollback>
 			<dropColumn tableName="company">
 				<column name="address1"/>
 			</dropColumn>
 		</rollback>
-		
     </changeSet>
+
 </databaseChangeLog>

@@ -31,6 +31,6 @@
 				<column name="address2"/>
 			</dropColumn>
 		</rollback>
-		
     </changeSet>
+
 </databaseChangeLog>
